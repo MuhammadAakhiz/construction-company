@@ -1,0 +1,38 @@
+.headwrapper {
+  .headconstruct {
+    font-weight: 700;
+    font-size: 64px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .colhero2 {
+    text-align: center !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+  .wrapperconstruct {
+    justify-content: center !important;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .headconstruct {
+    font-size: 45px !important;
+  }
+  .colhero {
+    text-align: center !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+}
+@media screen and (max-width: 465px) {
+  .headconstruct {
+    font-size: 25px !important;
+  }
+  .yellowline {
+    height: 95px;
+  }
+}

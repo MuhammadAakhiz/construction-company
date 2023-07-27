@@ -1,0 +1,38 @@
+.secexperience {
+  .colservices {
+    //   background-color: #f7f7f7;
+
+    .rowconstruct {
+      padding-top: 5rem;
+      padding-left: 3rem;
+      padding-right: 3rem;
+    }
+    .rowlists {
+      padding-bottom: 4rem !important;
+      padding-left: 3rem;
+      padding-right: 3rem;
+    }
+  }
+}
+
+.colyellow {
+  padding: 2rem 0rem;
+  background-color: #2a2a2a;
+}
+.colblack {
+  padding: 2rem 0rem;
+  background-color: #ffb400;
+}
+
+@media screen and (max-width: 991px) {
+  .colservices {
+    text-align: center;
+  }
+  .collists {
+    display: flex;
+    justify-content: center;
+  }
+  .rowwrap {
+    padding: 0rem !important;
+  }
+}

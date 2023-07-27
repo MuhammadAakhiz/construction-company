@@ -1,0 +1,53 @@
+.secachieved {
+  padding-top: 5rem;
+
+  .colachieved {
+    background-color: #2a2a2a;
+    padding-bottom: 10rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    .wrapperhead {
+      padding: 4rem 0rem;
+      .headbuild {
+        font-weight: 700;
+        font-size: 40px;
+      }
+    }
+  }
+  .rowvideo {
+    height: 590px !important;
+  }
+  .colcontact {
+    background-color: #ffb400;
+    padding: 1rem 1rem;
+  }
+
+  .colonline {
+    padding: 2rem 0rem;
+
+    .headcontact {
+      font-weight: 700;
+      font-size: 30px;
+    }
+  }
+}
+@media screen and (max-width: 1183px) {
+  .colachieved {
+    height: 44.8rem;
+  }
+}
+@media screen and (max-width: 991px) {
+  .colachieved {
+    padding-bottom: 4rem !important;
+  }
+  .wrapcontact {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .colachieved {
+    text-align: center;
+    padding-bottom: 4rem !important;
+  }
+}

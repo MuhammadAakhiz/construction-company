@@ -1,0 +1,41 @@
+.seccontacthero {
+  .rowabouthero {
+    .colcontact {
+      background-image: url(../../../Assets/images/truck.svg);
+      background-repeat: no-repeat;
+
+      background-size: cover;
+      padding: 6rem 0rem;
+      padding-left: 6rem;
+      padding-right: 6rem;
+    }
+    .colinfo {
+      background-color: #ffb400;
+      padding: 2rem 0rem;
+      padding-left: 2rem;
+      padding-right: 2rem;
+
+      .headcontact {
+        font-weight: 700;
+        font-size: 32px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .rowabouthero {
+    text-align: center;
+  }
+  .iconwrap {
+    justify-content: center;
+  }
+  .colcontact {
+    padding-left: 0rem !important;
+    padding-right: 0rem !important;
+  }
+  .colinfo {
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+  }
+}

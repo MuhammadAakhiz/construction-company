@@ -1,0 +1,50 @@
+.secaccordion {
+  background-color: #f7f7f7;
+  .wrapperheadyears {
+    .headyears {
+      font-weight: 700;
+      font-size: 40px;
+    }
+  }
+  //   .colaccordion {
+  //       .accordion {
+  //         .accordion-button {
+  //           background-color: transparent !important;
+  //           box-shadow: none !important;
+  //         }
+  //         .accordion-button:not(.collapsed) {
+  //             background-color: transparent !important;
+  //           box-shadow: none !important;
+  //         }
+  //       }
+  //   }
+}
+.accordionbody {
+  padding: 3rem 1rem !important;
+}
+
+@media screen and (max-width: 991px) {
+  .colaccordion {
+    padding-top: 2rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .colabout {
+    text-align: center;
+  }
+}
+
+.accordionheader {
+  & :not(.collapsed) {
+    background-color: red !important;
+  }
+}
+
+.accordionheader {
+  .accordion-button {
+    & :not(.collapsed) {
+      background-color: red !important;
+    }
+  }
+}

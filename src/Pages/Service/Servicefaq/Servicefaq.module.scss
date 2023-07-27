@@ -1,0 +1,42 @@
+.secservicefaq {
+  background-color: #f7f7f7;
+  padding-bottom: 2rem;
+  .wrapperheadyears {
+    .headyears {
+      font-weight: 700;
+      font-size: 40px;
+    }
+  }
+}
+.accordionbody {
+  padding: 3rem 1rem !important;
+}
+
+@media screen and (max-width: 991px) {
+  .colaccordion {
+    padding-top: 2rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .colabout {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 400px) {
+}
+
+.accordionheader {
+  & :not(.collapsed) {
+    background-color: red !important;
+  }
+}
+
+.accordionheader {
+  .accordion-button {
+    & :not(.collapsed) {
+      background-color: red !important;
+    }
+  }
+}

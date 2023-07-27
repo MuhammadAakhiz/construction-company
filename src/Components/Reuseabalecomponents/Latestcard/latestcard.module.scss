@@ -1,0 +1,33 @@
+.cardsproject {
+  background-color: transparent !important;
+  margin: auto !important;
+  .cardcontent {
+    border: 2px solid #666666 !important;
+    padding: 0rem 2rem !important;
+    background-color: white !important;
+    .cardhead {
+      padding-top: 2rem;
+    }
+    .cardtext {
+      padding-top: 2rem !important;
+    }
+  }
+  .wrapbtnproject {
+    padding-top: 4rem !important;
+    padding-bottom: 1rem !important;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .cardsproject {
+    width: 300px !important;
+  }
+}
+
+@media screen and (max-width: 460px) {
+}
+@media screen and (max-width: 1199px) {
+  .cardsproject {
+    width: 300px !important;
+  }
+}

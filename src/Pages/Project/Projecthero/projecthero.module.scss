@@ -1,0 +1,54 @@
+.heroproject {
+  background-image: url(../../../Assets/images/projectimg2.svg);
+  background-repeat: no-repeat;
+
+  background-size: cover;
+  padding-top: 7rem;
+  padding-bottom: 13rem;
+  .colhero {
+    //    padding-top: 7rem;
+    padding-left: 8rem;
+
+    .headconstruct {
+      font-weight: 700;
+      font-size: 64px;
+    }
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .colhero2 {
+    text-align: center !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    padding-top: 2rem;
+  }
+  .colhero {
+    padding: 0rem !important;
+    text-align: center !important;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .wrapperconstruct {
+    justify-content: center;
+  }
+  .headconstruct {
+    font-size: 45px !important;
+  }
+  .colhero {
+    text-align: center !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+}
+@media screen and (max-width: 465px) {
+  .headconstruct {
+    font-size: 25px !important;
+  }
+  .yellowline {
+    height: 50px;
+  }
+}

@@ -1,0 +1,27 @@
+.headservices {
+  font-weight: 700;
+  font-size: 16px;
+  padding-top: 1rem;
+  .paraservices {
+    font-weight: 400;
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .serviceswrap {
+    display: flex;
+    flex-direction: column;
+
+    // padding: 2rem 0rem;
+  }
+  .imgservices {
+    height: 50px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+}
+
+@media screen and (max-width: 460px) {
+}

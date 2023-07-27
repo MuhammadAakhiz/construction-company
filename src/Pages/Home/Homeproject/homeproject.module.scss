@@ -1,0 +1,64 @@
+.sechomeproject {
+  .colservices {
+    background-color: #ffb400;
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+    padding-left: 2rem;
+  }
+  .colproject {
+    background-color: #f7f7f7;
+    padding-top: 7rem;
+    .rowproject {
+      padding: 0rem 2rem;
+
+      .headproject {
+        font-weight: 700;
+        font-size: 40px;
+      }
+    }
+    .rowparas {
+      padding-bottom: 120px;
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+    }
+  }
+  .rowconsult {
+    background-color: #2a2a2a;
+    padding: 2rem 0rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+  }
+  .headconsult {
+    font-weight: 700;
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .colproject {
+    text-align: center;
+  }
+  .btnwrap {
+    padding-top: 1rem;
+  }
+  .colservices {
+    text-align: center;
+
+    padding: 2rem 0rem !important;
+  }
+  .rowservice {
+    padding: 2rem 0rem !important;
+  }
+}
+
+@media screen and (max-width: 442px) {
+  .headproject {
+    font-size: 26px !important;
+  }
+}
+@media screen and (max-width: 338px) {
+  .headconsult {
+    font-size: 25px !important;
+  }
+}

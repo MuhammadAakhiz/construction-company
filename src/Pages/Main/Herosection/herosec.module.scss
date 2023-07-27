@@ -1,0 +1,58 @@
+.herosec {
+  .colhero {
+    background-image: url(../../../Assets/images/truck.svg);
+    background-repeat: no-repeat;
+
+    background-size: cover;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+    .headconstruct {
+      font-weight: 700;
+      font-size: 64px;
+    }
+  }
+  .colhero2 {
+    background-color: #ffb400;
+    padding: 1rem 3rem !important;
+    .headservice {
+      font-weight: 700;
+      font-size: 32px;
+    }
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .colhero {
+    padding-left: 0rem !important;
+    padding-right: 0rem !important;
+    text-align: center !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+  .colhero2 {
+    text-align: center !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .wrapperconstruct {
+    justify-content: center;
+  }
+  .headconstruct {
+    font-size: 45px !important;
+  }
+}
+@media screen and (max-width: 465px) {
+  .headconstruct {
+    font-size: 25px !important;
+  }
+  .yellowline {
+    height: 50px;
+  }
+}

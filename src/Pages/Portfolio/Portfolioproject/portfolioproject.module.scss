@@ -1,0 +1,15 @@
+.secproject {
+  background-color: #ffb400;
+  text-align: center;
+  padding: 3rem 0rem;
+  .headproject {
+    font-weight: 700;
+    font-size: 50px;
+    @media screen and (max-width: 575px) {
+      font-size: 40px !important;
+    }
+    @media screen and (max-width: 355px) {
+      font-size: 25px !important;
+    }
+  }
+}

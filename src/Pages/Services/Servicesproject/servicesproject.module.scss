@@ -1,0 +1,19 @@
+.Secproject {
+  .rowqoute {
+    padding: 2rem 0rem !important;
+
+    .headqoute {
+      font-weight: 700;
+      font-size: 38px;
+    }
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .rowqoute {
+    text-align: center;
+  }
+  .headqoute {
+    padding-bottom: 1rem;
+  }
+}

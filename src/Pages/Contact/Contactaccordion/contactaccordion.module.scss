@@ -1,0 +1,47 @@
+.secaccordion {
+  background-color: #f7f7f7;
+
+  .colform {
+    padding: 3rem 3rem;
+
+    .namefield {
+      padding: 12px 5px;
+      outline: none;
+      border: none;
+      width: 100%;
+    }
+    .emailfield {
+      padding: 12px 5px;
+      outline: none;
+      border: none;
+      width: 100%;
+    }
+    .messagefield {
+      border: none;
+      outline: none;
+      width: 100%;
+    }
+  }
+  .btnwrap {
+    text-align: end;
+  }
+
+  .accordionbody {
+    padding: 3rem 1rem !important;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .colaccordion {
+    padding-bottom: 3rem;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .colform {
+    text-align: center;
+  }
+  .btnwrap {
+    text-align: center !important;
+  }
+}

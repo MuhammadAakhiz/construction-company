@@ -1,0 +1,23 @@
+.seccall {
+  .rowcall {
+    padding: 2rem 0rem;
+
+    .headcall {
+      color: #ffb400;
+      font-weight: 700;
+      font-size: 40px;
+    }
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .rowcall {
+    text-align: center;
+  }
+  .headcall {
+    font-size: 30px !important;
+  }
+  .btnwrap {
+    padding-top: 1rem;
+  }
+}

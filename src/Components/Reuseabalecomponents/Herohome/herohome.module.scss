@@ -1,0 +1,18 @@
+.headconstruct {
+  font-weight: 700;
+  font-size: 58px;
+}
+
+@media screen and (max-width: 767px) {
+  .headconstruct {
+    font-size: 47px !important;
+  }
+}
+
+@media screen and (max-width: 495px) {
+  .headconstruct {
+    font-size: 35px !important;
+  }
+}
+@media screen and (max-width: 438px) {
+}

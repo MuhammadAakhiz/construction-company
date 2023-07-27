@@ -1,0 +1,25 @@
+.secconstruction {
+  padding: 5rem 0rem;
+  .headdiviconstruct {
+    font-weight: 700;
+    font-size: 40px;
+  }
+  .colpara1 {
+    padding: 0rem 3rem;
+  }
+  .colpara2 {
+    padding: 0rem 3rem;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .rowparas {
+    text-align: center;
+  }
+  .colpara1 {
+    padding: 0rem;
+  }
+  .colpara2 {
+    padding: 0rem;
+  }
+}

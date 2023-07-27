@@ -1,0 +1,40 @@
+.secblogfooter {
+  .colform {
+    background-color: #ffb400;
+    padding: 3rem !important;
+    .headform {
+      font-weight: 700;
+      font-size: 40px;
+    }
+    .headcontact {
+      font-weight: 700;
+      font-size: 40px;
+    }
+  }
+  .namefield {
+    padding: 12px 5px;
+    outline: none;
+    border: none;
+    width: 100%;
+  }
+  .emailfield {
+    padding: 12px 5px;
+    outline: none;
+    border: none;
+    width: 100%;
+  }
+  .messagefield {
+    border: none;
+    outline: none;
+    width: 100%;
+  }
+  .rowicons {
+    background-color: #2a2a2a;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .colform {
+    text-align: center;
+  }
+}

@@ -1,0 +1,12 @@
+.secceo {
+  padding: 6rem 0rem;
+  .headceo {
+    line-height: 48px;
+  }
+}
+
+@media screen and (max-width: 407px) {
+  .headceo {
+    line-height: 30px !important;
+  }
+}

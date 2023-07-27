@@ -1,0 +1,21 @@
+.portfoliohero {
+  background-image: url(../../../Assets/images/portfolioimg.svg);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  .rowserviceshero {
+    padding: 10rem 0rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .rowserviceshero {
+    text-align: center;
+    padding-left: 0rem !important;
+    padding-right: 0rem !important;
+  }
+}

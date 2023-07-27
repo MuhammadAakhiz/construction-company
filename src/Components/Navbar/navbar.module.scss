@@ -1,0 +1,25 @@
+.navbarMain {
+  .navbar {
+    .navbrand {
+      font-weight: 600;
+      font-size: 23px;
+    }
+    .navlinks {
+      font-weight: 500 !important;
+      font-size: 16px !important;
+      text-decoration: none;
+    }
+    .activeLink {
+      color: #ffb400 !important;
+    }
+    .logo {
+      cursor: pointer;
+    }
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .navbrand {
+    font-size: 14px !important;
+  }
+}

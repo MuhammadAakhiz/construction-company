@@ -1,0 +1,56 @@
+.secaboutservices {
+  background-color: #f7f7f7;
+  .colservices {
+    padding-top: 4rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+
+    .headbest {
+      font-weight: 700;
+      font-size: 32px;
+    }
+    .btnwrap {
+      text-align: end;
+      padding-top: 22px;
+    }
+  }
+  .colyellow {
+    background-color: #ffb400;
+    padding: 2rem 0rem;
+  }
+  .colblack {
+    padding: 2rem 0rem;
+    background-color: #2a2a2a;
+  }
+  .colworkers {
+    padding: 2rem 0rem;
+  }
+  .colstaff {
+    padding: 2rem 0rem;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .colservices {
+    text-align: center !important;
+    padding-left: 0rem !important;
+    padding-right: 0rem !important;
+    padding-bottom: 2rem;
+  }
+  .rowservice {
+    padding: 3rem 0rem !important;
+  }
+  .btnwrap {
+    text-align: center !important;
+  }
+}
+
+@media screen and (max-width: 767px) {
+}
+
+@media screen and (max-width: 575px) {
+}
+@media screen and (max-width: 495px) {
+}
+@media screen and (max-width: 438px) {
+}

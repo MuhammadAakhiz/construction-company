@@ -1,0 +1,147 @@
+.secfooter {
+  .colform {
+    background-color: #ffb400;
+    padding: 3rem !important;
+    .headform {
+      font-weight: 700;
+      font-size: 40px;
+    }
+    .headcontact {
+      font-weight: 700;
+      font-size: 40px;
+    }
+  }
+  .namefield {
+    padding: 12px 12px;
+    outline: none;
+    border: none;
+    width: 47%;
+  }
+  .emailfield {
+    padding: 12px 12px;
+    outline: none;
+    border: none;
+    width: 48%;
+  }
+  .messagefield {
+    border: none;
+    outline: none;
+    padding: 12px 12px !important;
+  }
+  .btnmessage {
+    text-align: end;
+  }
+  .rowicons {
+    background-color: #2a2a2a;
+  }
+}
+
+@media screen and (max-width: 1920px) {
+  .messagefield {
+    width: 100% !important;
+  }
+  .emailfield {
+    width: 50% !important;
+  }
+}
+@media screen and (max-width: 1660px) {
+  .emailfield {
+    width: 49% !important;
+  }
+}
+@media screen and (max-width: 1366px) {
+  .emailfield {
+    width: 48% !important;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .messagefield {
+    width: 100% !important;
+  }
+  .namefield {
+    width: 47%;
+  }
+  .emailfield {
+    width: 48%;
+  }
+}
+@media screen and (max-width: 1150px) {
+  .messagefield {
+    width: 100% !important;
+  }
+  .namefield {
+    width: 46% !important;
+  }
+  .emailfield {
+    width: 47%;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .messagefield {
+    width: 100% !important;
+  }
+  .namefield {
+    width: 48% !important;
+  }
+  .emailfield {
+    width: 48% !important;
+  }
+}
+@media screen and (max-width: 695px) {
+  .messagefield {
+    width: 100% !important;
+  }
+  .namefield {
+    width: 47% !important;
+  }
+  .emailfield {
+    width: 48% !important;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .messagefield {
+    width: 100% !important;
+  }
+  .namefield {
+    width: 46% !important;
+  }
+  .emailfield {
+    width: 48% !important;
+  }
+  .wrapheadcontact {
+    text-align: center !important;
+  }
+  .btnmessage {
+    text-align: center !important;
+  }
+}
+
+@media screen and (max-width: 495px) {
+  .messagefield {
+    width: 100% !important;
+  }
+  .namefield {
+    width: 45% !important;
+  }
+  .emailfield {
+    width: 48% !important;
+  }
+}
+@media screen and (max-width: 438px) {
+  .messagefield {
+    width: 100% !important;
+  }
+  .namefield {
+    width: 100% !important;
+  }
+  .emailfield {
+    width: 100% !important;
+    margin-top: 1rem;
+  }
+  .btnmessage {
+    text-align: center !important;
+  }
+}

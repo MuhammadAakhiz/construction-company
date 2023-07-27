@@ -1,0 +1,56 @@
+.secprocess {
+  padding-top: 5rem;
+
+  .colprocess {
+    background-color: #2a2a2a;
+    padding-bottom: 10rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    .wrapperhead {
+      padding: 4rem 0rem;
+      .headbuild {
+        font-weight: 700;
+        font-size: 40px;
+      }
+    }
+  }
+}
+.rowvideo {
+  height: 590px !important;
+}
+.colcontact {
+  background-color: #ffb400;
+  padding: 2rem 1rem;
+}
+
+.colonline {
+  padding: 3rem 0rem;
+
+  .headcontact {
+    font-weight: 700;
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .colprocess {
+    padding-bottom: 4rem !important;
+    text-align: center;
+  }
+  .wrapcontact {
+    text-align: center;
+  }
+  .listprocess {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .colachieved {
+    text-align: center;
+    padding-bottom: 4rem !important;
+  }
+}

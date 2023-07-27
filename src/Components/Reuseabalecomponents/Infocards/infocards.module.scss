@@ -1,0 +1,21 @@
+.infocards {
+  .cardcontent {
+    //   padding: 0rem 2rem !important;
+
+    .cardinfo {
+      color: #c9c9c9;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .cardsproject {
+    width: 300px !important;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .cardsproject {
+    width: 300px !important;
+  }
+}

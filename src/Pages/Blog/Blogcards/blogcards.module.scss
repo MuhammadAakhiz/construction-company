@@ -1,0 +1,24 @@
+.blogcards {
+  background-color: #f7f7f7;
+  padding: 4rem 0rem;
+
+  @media screen and (max-width: 1199px) {
+    .cardsproject {
+      width: 300px !important;
+    }
+  }
+
+  @media screen and (max-width: 991px) {
+    .rowcards {
+      text-align: -webkit-center;
+    }
+    .colcard {
+      margin: 3rem 0rem;
+    }
+  }
+  @media screen and (max-width: 767px) {
+    .cardsproject {
+      width: 300px !important;
+    }
+  }
+}
